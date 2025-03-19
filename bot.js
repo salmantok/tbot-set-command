@@ -15,8 +15,7 @@ async function setCommands() {
 // Satu handler untuk beberapa perintah
 bot.command(['start', 'help', 'about'], (ctx) => {
   const messages = {
-    start:
-      '👋 *Selamat datang di bot ini!* Gunakan tombol di bawah untuk navigasi.',
+    start: '👋 *Selamat datang di bot ini!* Gunakan perintah untuk navigasi.',
     help: '🆘 *Ini adalah pesan bantuan.* Silakan pilih perintah yang sesuai.',
     about: 'ℹ️ *Bot ini dibuat menggunakan Telegraf.js.* Selamat mencoba!',
   };
