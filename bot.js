@@ -1,4 +1,4 @@
-import { Telegraf, Markup } from 'telegraf';
+import { Telegraf } from 'telegraf';
 import 'dotenv/config';
 
 const bot = new Telegraf(process.env.BOT_TOKEN); // Ganti dengan token bot kamu
